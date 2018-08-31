@@ -1,0 +1,47 @@
+body {
+  background-color: silver;
+  font-family: monospace;
+}
+
+#title {
+  text-align: center;
+  font-size: 50px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-left: 2%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+
+#editor {
+  border: 1px solid black;
+}
+
+#preview {
+  padding-top: 0;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 2%;
+  border: 1px solid black;
+  background-color: white;
+  min-width: 320px;
+  min-height: 500px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    display: block;
+    position: relative;
+  }
+}
