@@ -5,7 +5,8 @@ body {
 
 #title {
   text-align: center;
-  font-size: 50px;
+  font-size: 4rem;
+  margin-bottom: 0;
 }
 
 #container {
@@ -20,11 +21,13 @@ button {
 .heading {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 2%;
+  margin-bottom: 10px;
 }
 
 #editor {
   border: 1px solid black;
+  width: 320px;
+  height: 900px;
 }
 
 #preview {
